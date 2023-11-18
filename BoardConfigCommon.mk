@@ -18,3 +18,8 @@ TARGET_BOARD_KERNEL_HEADERS := hardware/samsung_slsi-linaro/exynos/kernel-$(TARG
 TARGET_SLSI_VARIANT := linaro
 TARGET_SOC_NAME := exynos
 BOARD_USES_DT := true
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos \
+    hardware/samsung_slsi-linaro/graphics

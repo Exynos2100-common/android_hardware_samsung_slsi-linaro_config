@@ -94,4 +94,4 @@ SOONG_CONFIG_arm_gralloc_gralloc_ion_sync_on_lock := $(BOARD_USES_GRALLOC_ION_SY
 SOONG_CONFIG_arm_gralloc_gralloc_scaler_wfd := $(BOARD_USES_GRALLOC_SCALER_WFD)
 SOONG_CONFIG_arm_gralloc_gralloc_product_vendor_version := true
 
-include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
+include hardware/samsung_slsi-linaro_13-e850-96/config/BoardConfigCommon.mk

@@ -60,4 +60,4 @@ TARGET_USES_UNIVERSAL_LIBHWJPEG := true
 # Acryl
 BOARD_LIBACRYL_DEFAULT_COMPOSITOR := fimg2d_8895
 
-include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
+include hardware/samsung_slsi-linaro_13-e850-96/config/BoardConfigCommon.mk

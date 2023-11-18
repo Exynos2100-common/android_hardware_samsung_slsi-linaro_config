@@ -14,10 +14,15 @@
 # limitations under the License.
 #
 
-TARGET_BOARD_KERNEL_HEADERS := hardware/samsung_slsi-linaro/exynos/kernel-$(TARGET_LINUX_KERNEL_VERSION)-headers/kernel-headers
-TARGET_SLSI_VARIANT := linaro
+TARGET_BOARD_KERNEL_HEADERS := hardware/samsung_slsi-linaro_13-e850-96/exynos/kernel-$(TARGET_LINUX_KERNEL_VERSION)-headers/kernel-headers
+TARGET_SLSI_VARIANT := linaro_13-e850-96
 TARGET_SOC_NAME := exynos
 BOARD_USES_DT := true
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro_13-e850-96/exynos \
+    hardware/samsung_slsi-linaro_13-e850-96/graphics
 
 # Acryl
 ifneq ($(BOARD_LIBACRYL_DEFAULT_COMPOSITOR),)

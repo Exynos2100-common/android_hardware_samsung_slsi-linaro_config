@@ -87,7 +87,7 @@ ifneq ($(BOARD_VENDOR), samsung)
 BOARD_USES_MOBICORE_TEE := true
 
 # MobiCore namespace
-PRODUCT_SOONG_NAMESPACES += hardware/samsung_slsi-linaro/exynos/tee/kinibi410
+PRODUCT_SOONG_NAMESPACES += hardware/samsung_slsi-linaro_13-e850-96/exynos/tee/kinibi410
 endif
 
-include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
+include hardware/samsung_slsi-linaro_13-e850-96/config/BoardConfigCommon.mk

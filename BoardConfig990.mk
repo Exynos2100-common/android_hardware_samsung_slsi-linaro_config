@@ -60,4 +60,4 @@ BOARD_LIBACRYL_DEFAULT_SCALER := mscl_9810
 BOARD_LIBACRYL_DEFAULT_BLTER := fimg2d_9810_blter
 BOARD_LIBACRYL_G2D9810_HDR_PLUGIN := libacryl_plugin_slsi_hdr10
 
-include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
+include hardware/samsung_slsi-linaro_13-e850-96/config/BoardConfigCommon.mk

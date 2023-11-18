@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-include hardware/samsung_slsi-linaro/config/BoardConfig9820.mk
+include hardware/samsung_slsi-linaro_13-e850-96/config/BoardConfig9820.mk
 TARGET_SOC_BASE := exynos9820
